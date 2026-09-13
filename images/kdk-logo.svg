@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" rx="200" fill="#eaf7ff"/>
+  <circle cx="200" cy="200" r="150" fill="#ffffff" stroke="#1597e5" stroke-width="14"/>
+  <path d="M200 105 C170 135 153 175 157 218 C176 205 190 187 200 163 C210 187 224 205 243 218 C247 175 230 135 200 105Z" fill="#1597e5"/>
+  <path d="M117 215 C143 216 171 229 200 258 C229 229 257 216 283 215 C269 254 239 277 200 295 C161 277 131 254 117 215Z" fill="#79cfff"/>
+  <text x="200" y="345" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#12345b">KDK</text>
+</svg>
