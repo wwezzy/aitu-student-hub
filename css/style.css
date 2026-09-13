@@ -502,3 +502,149 @@ footer p {
     transform: none;
     box-shadow: none;
 }
+
+.feature-card.no-hover:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* =========================
+   HOME PAGE
+   ========================= */
+
+#home-hero {
+    border-bottom: 4px solid #dff3ff;
+}
+
+.home-hero {
+    width: 100%;
+    min-height: 520px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #f4fbff;
+}
+
+.home-hero img {
+    width: 55%;
+    height: 520px;
+
+    object-fit: cover;
+}
+
+.home-hero-text {
+    width: 45%;
+    padding: 50px;
+}
+
+.home-hero-text h1 {
+    margin-bottom: 20px;
+
+    font-size: 3rem;
+}
+
+.home-hero-text p {
+    color: #58758b;
+}
+
+.home-intro {
+    max-width: 800px;
+
+    text-align: center;
+}
+
+.home-intro h2 {
+    font-size: 2.3rem;
+}
+
+
+/* =========================
+   ABOUT PAGE
+   ========================= */
+
+#about-hero {
+    border-bottom: 4px solid #dff3ff;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.about-text {
+    width: 55%;
+}
+
+.about-image {
+    width: 45%;
+    height: 330px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+/* Team Members */
+
+.simple-team-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.simple-team-card {
+    flex: 1;
+
+    padding: 25px;
+
+    border: 1px solid #d9ebf7;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+}
+
+.simple-team-card h3 {
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   HOME & ABOUT MOBILE
+   ========================= */
+
+@media (max-width: 850px) {
+
+    .home-hero {
+        flex-direction: column;
+    }
+
+    .home-hero img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .home-hero-text {
+        width: 92%;
+        padding: 40px 0;
+    }
+
+    .home-hero-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-text,
+    .about-image {
+        width: 100%;
+    }
+
+    .simple-team-grid {
+        flex-direction: column;
+    }
+}
